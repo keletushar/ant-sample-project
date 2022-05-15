@@ -8,7 +8,7 @@
     <property name="doc.dir"     value="doc"/>
 
     <!-- targets -->
-    <target name="compile-dir" description="compile project">
+    <target name="compile" description="compile project">
         <mkdir dir="${classes.dir}"/>
         <javac srcdir="${src.dir}" destdir="${classes.dir}" includeantruntime="false"/>
     </target>
